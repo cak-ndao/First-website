@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <style>
+      body {
+        background-color: black;
+        padding: 0;
+      }
+      #box1 {
+  position: relative;
+  top: 350px;
+  width: 150px;
+  height: 70px;
+  background-color: darkred;
+  animation-name: myAnimation;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  color: white;
+  text-shadow: 4px 4px black;
+  font-size: 25px;
+}
+@keyframes myAnimation{
+  0% {left: 0px;}
+  50% {left: 100%;}
+  100% {left: 0px;}
+}
+    </style>
+    <script>
+      console.log("hello")
+    </script>
+  </head>
+  <body>
+    <div id="box1">hmm</div>
+  </body>
+</html>
