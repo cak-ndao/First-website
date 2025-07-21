@@ -1,0 +1,128 @@
+html {
+  scroll-behavior:smooth;
+}
+body {
+    background-color:#232323;
+    margin:0;
+    h3 {text-decoration:underline;}
+    a {
+      text-decoration:none;
+    }
+    a:visited {
+      color:#0000EE;
+    }
+    header {
+        .intro {
+            text-align:center;
+            background-color:#F2F2F2;
+            padding:4px;
+            margin:8px;
+            border-radius:16px;
+        }
+        .intro h1 {
+            font-weight:375;
+        }
+        .intro p {
+            font-size:medium;
+            font-weight:325;
+            padding:12px;
+        }
+    }
+    main {
+/*GAFAM and LOGOS*/
+        div.logos {
+          text-align:center;
+        }
+        .art1 {
+          display: flex;
+          flex-direction: column;
+        }
+        @media screen and (min-width: 1200px) {
+          .art1 {
+            flex-direction: row;
+          }
+        }
+        .google, .amazon, .facebook, .apple, .microsoft {
+            font-size:medium;
+            background-color:#FBF8F3;
+            padding:18px;
+            margin-bottom:12px;
+            p {
+              text-align:justify;
+            }
+        }
+        #google-logo {
+          width: 180px; height: 65px;
+        }
+        #amazon-logo {
+           width: 160px; height: 90px;
+        }
+        #facebook-logo {
+           width: 150px; height: 95px;
+        }
+        .notice h4 {
+          text-decoration:underline;
+        }
+        #notice {
+          font-size:14px;
+          text-align:left;
+        }
+        #apple-logo {
+          width: 145px; height: 85px;
+        }
+        #microsoft-logo {
+          width: 140px; height: 80px;
+        }
+/*TABLE*/
+        .art2 {
+            text-align:center;
+            color:white;
+            background-color:#064439;
+            border:1px solid white;
+            border-radius:6px;
+            padding:6px;
+            justify-items:center;
+        }
+        table {
+            background-color:#064439;
+            border-collapse:collapse;
+            th, td {
+              border:1px solid black;
+              padding:4px;
+            }
+            td:nth-child(1) {
+              text-align:left;
+            }
+            tr:nth-child(1) {
+                background-color:#EEE7CE;
+                th {
+                    color:#064439;
+                    border:1px solid black;
+                }
+            }
+        }
+    }
+    footer {
+/*TOP PAGE BUTTON*/
+
+        button a {
+            color:black;
+        }
+        button a:visited {
+          color:black;
+        }
+        #top {
+            border:none;
+            border-radius:12px;
+            background-color:#DADADA;
+            padding:5px;
+        }
+        #top:active {
+            transform:scale(1.2);
+        }
+        #top-wrapper {
+          text-align:center;
+          margin:8px;
+        }
+    }
+  }
